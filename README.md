@@ -40,7 +40,7 @@ I like owning the whole pipeline — train it, optimize it, ship it — and I te
 - for the highest-stakes fields (lifecycle status, compliance flags, override reasons), the LLM doesn't even author the wording — a fixed Python renderer produces the sentence straight from the real field value, closing off small-model paraphrase bugs at the architecture level rather than catching them after the fact
 - built with a local Qwen2.5-1.5B agent (no external API calls), FastAPI backend, and a React + Vite + Tailwind dashboard
 
-### ⚽ [Gaffer's Guide](https://github.com/Gagansharma-code/GaffersGuide-to-a-good-game) *(co-founder)*
+### ⚽ [Gaffer's Guide](https://github.com/amartyatatspandey/GaffersGuide-to-a-good-game.git) *(co-founder)*
 **AI football analytics — turning raw match footage into usable tactical data.**
 
 - FastAPI inference server wired end-to-end into an Electron desktop workspace
