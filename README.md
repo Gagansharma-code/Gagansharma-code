@@ -31,6 +31,15 @@ I like owning the whole pipeline — train it, optimize it, ship it — and I te
 - **ASHA Search Controller** — built the missing loop between generating a design and deciding what to do with it: evaluates BOM candidates in parallel, scores each schematic with a 5-layer structural verifier, and routes the winner to ship, simulated-annealing polish, or beam-search escalation based on score — feeding outcomes back into a TPE sampler so future selection improves over time
 - **Weak-Model Self-Improvement Loop** — a small local model (Qwen2.5-1.5B) closing most of the gap to a much larger one purely through verifier-scored retries, no fine-tuning — feeding concrete verifier violations back as correction feedback across an adaptive-temperature retry loop
 
+### 📚 [The Librarian](https://github.com/Gagansharma-code/The-Librarian) — OpenForge
+**a component-intelligence service that answers questions about electronic parts with every claim traceable to a cited source — it never guesses.**
+
+- **two-graph architecture**: a shared Global KG (manufacturer datasheets, parsed reference designs, lifecycle/compliance data) and a private, air-gapped Personal KG per org (usage history, rejection/acceptance decisions) — genuinely separate Neo4j databases, not a labeled partition of one
+- when the two disagree, nothing is silently merged — an `OverrideDecision` node records who, when, and why, and any answer touching that part surfaces both sides with separate citations
+- the agent never writes free-form Cypher — it selects from a fixed catalog of 14 versioned query templates (identity/parametric, topology, ecosystem/co-occurrence, trust/lifecycle, org decision history) and fills in typed parameters
+- for the highest-stakes fields (lifecycle status, compliance flags, override reasons), the LLM doesn't even author the wording — a fixed Python renderer produces the sentence straight from the real field value, closing off small-model paraphrase bugs at the architecture level rather than catching them after the fact
+- built with a local Qwen2.5-1.5B agent (no external API calls), FastAPI backend, and a React + Vite + Tailwind dashboard
+
 ### ⚽ [Gaffer's Guide](https://github.com/Gagansharma-code/GaffersGuide-to-a-good-game) *(co-founder)*
 **AI football analytics — turning raw match footage into usable tactical data.**
 
