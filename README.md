@@ -71,6 +71,7 @@ I like owning the whole pipeline — train it, optimize it, ship it — and I te
 ---
 
 - 📧 [gs354844@gmail.com](mailto:gs354844@gmail.com)
+  
 - 💼 [linkedin.com/in/gagan-sharma07](https://linkedin.com/in/gagan-sharma07)
 
 <p align="center"><em>train it, optimize it, ship it.</em></p>
