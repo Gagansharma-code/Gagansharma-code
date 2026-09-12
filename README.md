@@ -57,6 +57,11 @@ I like owning the whole pipeline — train it, optimize it, ship it — and I te
 
 ---
 
+## 🏅 Certifications
+<div><a href="https://cloud.layer5.io/user/05b55d02-0984-4f97-983e-fc44d0df3737?tab=badges&badge=certified-meshery-contributor" alt="Certified Meshery Contributor" ><img width="175px" height="252px" src="https://badges.layer5.io/assets/badges/certified-meshery-contributor/certified-meshery-contributor.png" alt="Certified Meshery Contributor" /></a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><a href="https://badges.layer5.io">Get your own badge</a></sup></div>
+
+---
+
 ## 🌐 Socials
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/simplygagann)
 
