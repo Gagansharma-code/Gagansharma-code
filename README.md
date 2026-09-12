@@ -1,13 +1,9 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffafcc,50:ff8fab,100:fb6f92&height=160&section=header&text=Gagan%20Sharma&fontSize=38&fontColor=ffffff&fontAlignY=35&desc=Opensource%20contributor%20%C2%B7%20(AI/ML)%20%C2%B7%20Full%20Stack%20Developer&descSize=14&descAlignY=58&animation=fadeIn" width="100%" alt="header" />
 
-<div align="center">
-  <img height="250" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" />
-</div>
+<img height="250" src="https://media.giphy.com/media/26u4b45b8KlgAB7iM/giphy.gif" />
 
 ### A little about me
 I'm a B.Tech CSE (AI) student @ Faculty of Technology, Delhi University who spends a lot of  time working on open-source projects, building across AI/ML, embedded systems, and computer vision.
-
-I like owning the whole pipeline — train it, optimize it, ship it — and I tend to end up building in domains I've never touched before.
 
 ---
 
